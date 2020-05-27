@@ -1,0 +1,268 @@
+*{
+    box-sizing: border-box;    
+    
+}
+body{    
+    margin:0px;
+    font-family: 'Bai Jamjuree', sans-serif;   
+    font-size: 18px;     
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+}
+header{    
+    background-image: url(../images/bg-header-desktop.png);
+    background-size: cover;    
+}
+.container{
+    padding: 0 30px;       
+}
+.flex{
+    display: flex;   
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.logo{       
+    align-items: center; 
+    padding: 125px 0;
+    padding-bottom: 75px;
+}
+h1{
+    font-weight: 600;
+    margin: 15px;   
+      
+}
+h2{
+    font-weight: 600;
+    margin: 15px;
+}      
+p{
+    font-weight: 400;
+    margin: 15px;  
+    opacity: 0.6;
+}
+.boton{   
+    margin-top: 25px;
+    height: 55px;
+    font-family: 'Bai Jamjuree', sans-serif; 
+    font-size: 18px;
+    border-radius: 50px;
+    border: none;
+    padding: 15px 60px;
+    color: #fff;
+    cursor: pointer;
+    box-sizing: border-box;   
+    font-weight: 600
+
+}
+.boton-descarga{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.ios{
+    background-color: rgb(38, 186, 164);
+    box-shadow: 0 4px hsl(171, 68%, 36%);
+}
+.mac{
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0 4px hsl(233, 71%, 61%);
+}
+.segunda{
+    margin-top: 155px;    
+}
+.segunda p{
+    margin-bottom: 70px;
+}
+.imag-section{
+    max-width: 100%; 
+    height: auto;    
+}
+.computer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;      
+}
+
+.margen-textos{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.margen-textos h2{
+    margin-bottom: 25px;
+}
+.margen-textos p{
+    padding-bottom: 10px;
+}
+.tercera{
+    margin-top: 150px;
+}
+.tablet{
+    margin-top: 55px;
+}
+.cuarta{
+    margin-top: 100px;    
+}
+.cuarta h2{
+    margin:0px;
+}
+.textos{    
+    margin-top: 45px;   
+}
+.textos p{
+    padding:15px;
+}
+.textos img{    
+    margin-top: 30px;
+    margin-bottom: 32px;    
+}
+.textos-icons{
+    margin-top: 45px; 
+}
+.textos-icons p{
+    padding:15px;
+}
+.textos-icons img{    
+    margin-top: 30px;
+    margin-bottom: 32px;    
+}
+.patrocinadores{
+    margin-top: 75px;    
+    flex-direction: column;    
+}
+.patrocinadores img{
+    margin: 30px auto;
+}
+.clipboard{
+    margin-top: 135px;
+    margin-bottom: 10px;
+}
+.clipboard p{
+    padding: 0;
+}
+.clip{
+    margin-top: 95px;
+    margin-bottom: 150px;
+}
+footer{
+    background-color: #f5f6f8;
+}
+.container-footer{    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+}
+.container-footer img{
+    max-width: 55px;
+    margin: 40px 135px;
+    padding-top: 10px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.listas ul li{
+    list-style-type: none;   
+    padding: 20px; 
+}
+.listas ul li a{
+    text-decoration: none;  
+    color: hsl(210, 10%, 33%);
+} 
+.redes{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;  
+    margin-top: 22px; 
+    margin-bottom: 37px; 
+}
+    
+.redes li{
+    font-size: 30px;
+    padding: 13px;    
+}
+.redes li i{
+    color: hsl(210, 10%, 33%);
+}
+
+@media (min-width: 700px){
+    .box{
+        box-sizing: border-box;
+        width: 700px;
+        margin: 0 auto;  
+    }
+    .boton-descarga{       
+        flex-direction: row;
+        justify-content: center;
+    }
+    .boton{
+        margin: 0 15px;
+        padding: 15px 40px;
+    }
+    .segunda p{
+        margin-bottom: 90px;
+    }   
+    .computer{        
+        margin-left: -70px;
+        flex-wrap: nowrap;
+        text-align: left;
+        justify-content: space-evenly;
+        padding: 0;
+    }          
+    .textos{
+        margin-top: 50px;
+        max-width: 380px;
+        text-align: left;
+        margin-left: 95px;
+        margin-right: 272px;
+    }
+    .textos p{
+        margin: 0;
+        padding: 0;
+    }
+    .textos-icons{        
+        flex-wrap: nowrap;
+        margin-top: 60px;
+    }
+    .textos-icons div{
+        width: 33%;
+    }
+    .textos-icons img{
+        max-height: 32px;
+        margin-bottom: 35px;
+    }    
+    
+    .patrocinadores{
+        margin-top: 105px;    
+        flex-direction: row;   
+        align-items: center; 
+    }
+    .ancho{
+        max-width: 1115px;
+        margin: 30px auto;
+    }        
+    .clip {
+        margin-top: 95px;
+        margin-bottom: 150px;
+    }    
+    .container-footer{       
+        flex-direction: row;                
+    }
+    .listas{
+        flex: 3;          
+        display: flex;          
+    }
+    .columnas{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 25px;
+    }
+    .redes{
+        margin-right: 160px;
+    }    
+
+}
