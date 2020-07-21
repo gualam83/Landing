@@ -51,7 +51,8 @@ p{
     color: #fff;
     cursor: pointer;
     box-sizing: border-box;   
-    font-weight: 600
+    font-weight: 600;
+    outline:none;
 
 }
 .boton-descarga{
